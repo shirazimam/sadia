@@ -1,0 +1,131 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+.qc_woo_free_admin {
+	margin: 20px 0 0 0;
+	padding: 10px 20px;
+	box-shadow: 0 6px 18px 8px rgba(0, 0, 0, 0.3);
+	background: #222;
+	color: #fff;
+	border-radius: 5px;
+	max-width: 95.5%;
+	font-size:16px;	
+
+}
+
+.qc_woo_free_admin p{
+
+		font-size:16px;
+}
+
+
+.qc_woo_free_admin h1 {
+	margin: 0;
+	padding: 20px 0 25px 0;
+	color: #fff;
+	text-transform: uppercase;
+}
+.qc_woo_free_admin_left {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 65%;
+}
+.qc_woo_free_admin_right {
+	margin: 0 0;
+	padding: 15px 15px;
+	float: right;
+	width: 29%;
+	background: #fff;
+	border-radius: 3px;
+}
+.qc_woo_free_admin .updated, .qc_woo_free_admin .notice {
+	margin: 5px 0 28px 0;
+	color: #222;
+}
+.qc_woo_free_admin input {
+	display: block;
+	width: 100%;
+	margin: 15px 0 0 0;
+	padding: 8px 8px;
+}
+.qc_woo_free_admin textarea {
+	padding: 4px;
+	width: 100%;
+}
+.qc_woo_free_admin input[type="number"] {
+	height: 36px;
+}
+.qc_woo_free_admin ul.radio-list li input {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	width: auto;
+}
+.qc_woo_free_admin a.up_pro {
+}
+.qc_woo_free_admin input.submit-button {
+	border: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 18px 0 15px 0;
+	padding: 12px 0;
+	font-size: 18px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	background: #0073aa;
+	color: #fff;
+}
+.qc_woo_free_admin input.submit-button:hover {
+	color: #222;
+	background: #fff;
+}
+.qc_woo_free_admin_right h2 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.qc_woo_free_admin_right ul {
+	margin: 15px 0;
+	padding: 0;
+}
+.qc_woo_free_admin_right ul li {
+	margin: 0;
+	padding: 6px 0;
+	display: inline-block;
+	width: 100%;
+	font-size:16px;
+	color: #222;
+}
+.qc_woo_free_admin_right ul li:before {
+	content: "\f00c";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	color: #0073aa;
+	margin: 0 4px 0 0;
+}
+.qc_woo_free_admin_right a.upgrade_btn {
+	background: #222;
+	display: block;
+	color: #fff;
+	text-decoration: navajowhite;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 10px 0;
+}
+.qc_woo_free_admin_right a.upgrade_btn:hover {
+	background: #0073aa;
+}
+.copy_right_box {
+	color: #222;
+	margin: 20px 0 0 0;
+	line-height: 24px;
+}
+.copy_right_box a {
+	color: #0073aa;
+	font-weight: bold;
+	text-decoration: none;
+}

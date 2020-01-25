@@ -1,0 +1,377 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+This css 
+
+page-templates/full-width.php
+footer.php
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+ul.products li.product .woocommerce-loop-product__title {
+    font-size: 14pt;
+    margin: 16px 0px 0px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    width: -webkit-fill-available;
+}
+.font-design p{
+    font-size: 24px;
+    text-align: justify;
+    color: #343a40;
+}
+.cat-list li.list-inline-item{
+margin:auto 15px;
+}
+table.shop_table_responsive tr td a {
+margin:auto 5px;
+}
+.woocommerce-MyAccount-content a {
+color:orange;
+}
+.three-rots{
+background: radial-gradient(circle farthest-side, #fed272, #fff7e5);
+    border-radius: 40px 30px 10px 40px;
+  	text-align: -webkit-center;
+    height: 120px;
+    width: 120px;
+    transform: rotate(25deg);
+}
+.three-rots-image{
+    height: 100px;
+    width: 100px;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    margin-top: 9px;
+    transform: rotate(-25deg);
+    border-radius: 40px 24px 40px 10px;
+}
+.menu-product-categories-container{
+padding: 10px;
+}
+.sidebar-1-area .widget ul li a{
+    color: #ffffff!important;
+}
+.sidebar-1-area .widget-title{
+color: #fff;
+    text-align: center;
+    font-size: 1.50rem;
+}
+#secondary{
+background-color:transparent;
+}
+.tp-bgimg{
+-webkit-box-shadow: inset 68px 64px 126px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 68px 64px 126px 0px rgba(0,0,0,0.75);
+box-shadow: inset 68px 64px 126px 0px rgba(0,0,0,0.75);
+}
+.align-items-center{display:flex; align-items:center;}
+.nav-tabs {
+    border-bottom: 1px solid transparent;
+}
+.navbar-toggler{display:none;}
+.top-main-menu{
+    position: absolute;
+    left: 24px;
+    right: 42px;
+    z-index: 99;
+}
+.mega-sub-menu li ul{
+list-style:none;
+}
+.mega-sub-menu li ul li a:hover{
+	text-decoration:none;
+  color: #fcaf3b;
+}
+#comments, .single-post .entry-header, .single-post .entry-meta, .single-post .post-thumbnail{
+display:none;
+}
+
+.single-post .entry-content{
+text-align:justify;
+}
+.footer-logo img{
+    max-height: 160px;
+    margin-top: 25px;
+}
+.footer-logo p{
+    color: #4f4e55;
+}
+.top-main-menu .custom-logo {
+    height: 140px;
+    width: auto;
+}
+.text-50{
+font-size:50pt;
+}
+.custom-btnwhite{
+	border: 2px solid white;
+    font-size: 14pt;
+    border-radius: 50px;
+    padding: 2px 20px;
+}
+.bebas{
+font-family: 'Oswald', sans-serif;
+}
+.headings{
+	font-size: 67pt;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    line-height: 1em;
+    font-weight: 600;
+}
+.homesectioncollection .woocommerce-loop-product__title{
+width: max-content;
+    float: left;
+  margin-left: 26px;
+  color:#fff;
+}
+.sidebar-1-area .widget{
+    margin-bottom: 0;
+    padding: 0px;
+}
+.site-info{
+padding: 50px 0px;
+    border-top: 2px solid #424141;
+}
+.site-info a{color:#fff;}
+.footer-widgets .widget-title{
+ color: #fff;
+    font-size: 20pt;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    margin: 25px 0px;
+}
+.homesectioncollection .product{
+background: #23282d;
+    border-radius: 50px;
+    padding: 0px 0px 16px 0px;
+  
+}
+.homesectioncollection .woocommerce-Price-amount.amount{ color: #fdaf00;
+    font-size: 18pt;
+    font-family: 'Oswald', sans-serif;}
+
+.sub-heading{
+font-size: 50pt;
+    margin-left: 8pt;
+    color: #fcaf3b;
+}
+.homesectioncollection img{
+margin-bottom: 20px;
+  border-radius: 50px 50px 0px 0px;
+}
+ul.products li.product {
+    text-align: -webkit-center;
+}
+.poppins{
+font-family: 'Poppins', sans-serif;
+}
+.cursive{
+font-family: 'Mr De Haviland', cursive;
+}
+.custom-btn{
+   background: #fdad00;
+    color: #000!important;
+    font-size: 14pt;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 35px;
+    border-radius: 50px;
+}
+.custom-btn2{
+padding: 20px 35px;
+    border-radius: 50px;
+  background: transparent;
+    border: 2px solid #fe9d3b;
+    color: #fff;
+    text-decoration: none;
+}
+.custom-btn2:hover{
+padding: 20px 35px;
+    border-radius: 50px;
+    background: #fe9d3b;
+    border: 2px solid transparent;
+    color: #fff;
+    text-decoration: none;
+}
+.custom-btn3{
+padding: 20px 35px;
+    border-radius: 50px;
+  background: transparent;
+    border: 2px solid #fe9d3b;
+    color: #343a40;
+    text-decoration: none;
+}
+.custom-btn3:hover{
+padding: 20px 35px;
+    border-radius: 50px;
+    background: #fe9d3b;
+    border: 2px solid transparent;
+    color: #fff;
+    text-decoration: none;
+}
+
+.homesection3{
+min-height:600px;
+  background:#000;
+}
+.homesection4{
+ padding: 100px 0px;
+}
+.ring-bg-section{
+	 padding: 140px 0px;
+    background-image: url(http://nextinfosolutions.com/sadia/wp-content/uploads/2019/08/rings_coverphoto.jpg);
+    background-size: 100%;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-color: #020106;  
+}
+.necklace-bg-section{
+	 padding: 140px 0px;
+  	background-image: url(http://nextinfosolutions.com/sadia/wp-content/uploads/2019/08/Barfi.jpg);
+    background-size: 100%;
+    background-position: center top;
+}
+.bangles-bg-section{
+	 padding: 140px 0px;
+  	background-image: url(http://nextinfosolutions.com/sadia/wp-content/uploads/2019/08/Bangle3.jpg);
+    background-size:cover;
+  background-position: center;
+  
+}
+
+.homesectioncollection{
+  background-color: #1b1b1b;
+  padding: 130px 0px;
+}
+
+.home5-ctas{
+padding: 150px 0px;
+  text-align:center;
+}
+.homesection2{
+padding: 0px 0px 100px 0px;
+}
+.homesection4 .vp-filter, .homesection4 .vp-pagination__item{display:none!important;}
+.home5-ctas .wrapper img{
+max-height: 120px;
+}
+.homesection4 .vp-uid-780f6219 .vp-portfolio__items .vp-portfolio__item-wrap .vp-portfolio__item{
+border-radius:50px;
+}
+
+ul.products li.product img {
+    display: block;
+    border-radius: 50px 50px 0px 0px;
+}
+.home5-ctas .wrapper p{
+ font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 22px;
+    font-family: 'Oswald', sans-serif;
+}
+.sidebar-1-area .custom-html-widget img{
+margin:10px 0px;
+}
+.sidebar-1-area.card{border:none;}
+.wp-bp-sidebar-width, .wp-bp-sidebar-width div  {
+background: #09080d;
+}
+@media only screen and (max-width:600px){
+  .woocommerce-MyAccount-navigation ul li {
+    margin: 0px 20px 8px 10px;
+}
+  .woocommerce-MyAccount-navigation ul li a {
+    padding: 2px 0px;
+}
+  .woocommerce-MyAccount-navigation ul{
+  display:block;
+  }
+  .blog-featured-image {
+    height: 150px;
+}
+  .blog-title {
+    font-size: 20pt;
+}
+  .featured-image-wrapper{
+  background-position:center;
+  }
+  .menu-right-cart {
+    justify-content: flex-end !important;
+}
+  ul.products li.product .price {
+    color: #6c757d;
+    width: -webkit-fill-available;
+    margin-right: 0px;
+    float: left;
+}
+  .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    padding: 10px 0px;
+}
+  .home5-ctas {
+    padding: 75px 0px;
+}
+  .headings {
+    font-size: 52pt;
+}
+  .text-50 {
+    font-size: 30pt;
+}
+  .review {
+    font-size: 8pt;
+}
+  .reviewer-name {
+    font-size: 16px;
+    margin-right: 16px;
+  }
+  .right-quote {
+    padding: 12px 6px 0px 12px;
+  }
+
+  .homesectioncollection .woocommerce-Price-amount.amount {
+    color: #fdaf00;
+    font-size: 8pt;
+    font-family: 'Oswald', sans-serif;
+}
+  
+   .oc a, .rc a {
+    font-size: 12px;
+     }
+  .custom-btn {
+    font-size: 12pt;
+    padding: 14px 15px;
+}
+  .custom-btn2 {
+    padding: 10px 45px;
+}
+.top-main-menu {
+    position: relative;
+    background: #000;
+    left: 0px;
+    right: 0px;
+    z-index: 99;
+}
+  .navbar {
+    padding: 1rem;
+    position: relative;
+    z-index: 999;
+    left: 0;
+    right: 0;
+}
+  .top-main-menu .custom-logo {
+    height: 40px;
+    width: auto;
+}
+}</style>
+<!-- end Simple Custom CSS and JS -->

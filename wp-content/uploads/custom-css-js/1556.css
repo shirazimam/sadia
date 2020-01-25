@@ -1,0 +1,243 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+ul.products li.product .onsale {
+    background: #fcaf3b;
+}
+
+.menu-right-cart{
+    margin-top: 22px;
+}
+.woocs_auto_switcher{}
+
+.centertabs{
+    text-align: center;
+    width: max-content;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+     font-size: 18pt;
+    font-weight: 600;
+}
+.rc a{color:#343a40;}
+.centertabs.nav-tabs .nav-link.active, .centertabs.nav-tabs .nav-item.show .nav-link {
+    color:#fdad00;
+    background-color: transparent;
+    border-color:  transparent;
+}
+.cart-icon-top{
+    
+}
+.search-bar-wrapper{
+z-index: 99;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+.search-bar-wrapper input {
+    height: 50px!important;
+    background: #fff!important;
+    border: 0px!important;
+}
+.menu-right-cart li{
+    padding: 0px 10px;
+}
+.custom-btnwhite:hover {
+    border: 2px solid #fdad00;
+    font-size: 14pt;
+    color: #fdad00;
+    border-radius: 50px;
+    padding: 2px 20px;
+    text-decoration: none;
+}
+.cart-icon-top:hover{
+    color:#fdad00;
+}
+.woocommerce-breadcrumb a {
+color: #000;
+  font-family: 'Oswald', sans-serif;
+}
+.select2-container--default .select2-selection--single{
+border-radius: 0px!important;
+    border: 1px solid #e9e9e9!important;
+    height: 38px;
+    width: 342px;
+    line-height: inherit;
+}
+#customer_details label{
+width: 100%;
+}
+#customer_details input, #customer_details select{
+    border-radius: 0px!important;
+    border: 1px solid #e9e9e9!important;
+}
+.checkout-button {
+background-color:#fcaf3b!important;
+}
+.woocommerce-breadcrumb {
+color: #fdad00;
+  font-family: 'Oswald', sans-serif;
+}
+.product_title.entry-title{
+font-family: 'Poppins', sans-serif;
+}
+.summary.entry-summary{
+    color: #fdaf00;
+    font-family: 'Poppins', sans-serif;
+}
+.single-product .summary.entry-summary .button[type="submit"] {
+    margin-top: 0;
+    border: 0;
+    background-color: #fcaf3b;
+    font-size: 10pt;
+}
+.woocommerce-product-details__short-description p{
+font-size: 14px;
+}
+.woocommerce-tabs {
+    margin-top: 1rem;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.posted_in a {
+color: #fdad00;
+}
+.products .product{
+text-align:center;
+  font-family: 'Poppins', sans-serif;
+  background: #23282d;
+    border-radius: 50px;
+    padding: 0px 0px 16px 0px;
+}
+.products li a.add_to_cart_button{
+background-color: #fcaf3b;
+    font-size: 10pt;
+    border: 0;
+    cursor: pointer;
+}
+ul.products li.product .woocommerce-loop-product__title {
+    font-size: 14pt;
+    margin: 16px 0px 0px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+.woocommerce-Price-amount.amount {
+    color: #fcaf3b;
+    font-size: 14pt;
+    font-weight: 400;
+}
+ul.page-numbers li a {color: #000;}
+.woocommerce-pagination .page-numbers li .page-numbers.current {
+    color: #fcaf3b;
+}
+.related > h2{
+color: #23282d;
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 2px solid #fcaf3b;
+    width: fit-content;
+    padding-bottom: 10px;
+}
+.related.products{
+margin-left: 0px !important;
+}
+.columns-3 .products{margin-left:0px!important;}
+.woocommerce-message {
+    padding: 0.75rem 1.25rem;
+    border: 1px solid transparent;
+    color: #0a090d;
+    box-shadow: 2px 4px 21px -9px rgba(173, 173, 173, 1);
+    background-color: #fcaf3b;
+    border-color: #fdb03b;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 0px;
+    display: block;
+}
+.wc-forward {
+border: 1px solid #fff;
+    padding: 5px 25px;
+  font-family: 'Poppins', sans-serif;
+    background: #fff;
+    border-radius: 50px;
+    color: #000;
+}
+.woocommerce-cart-form__contents td{
+vertical-align: middle;
+}
+.product-name a{
+ color: #fdad00;
+}
+.product-thumbnail img{max-height: 100px;width:auto;}
+table.shop_table_responsive tr td.product-remove a {
+    color: #000;
+}
+table.woocommerce-cart-form__contents{
+border: 2px solid #dee2e638;
+    box-shadow: 1px 4px 8px -7px rgba(173, 173, 173, 1);
+}
+.cart-collaterals {
+padding: 15px;
+    border: 2px solid #dee2e638;
+    box-shadow: 1px 4px 8px -7px rgba(173, 173, 173, 1);
+}
+
+.shop_table.shop_table_responsive.woocommerce-cart-form__contents button[type="submit"], .form-row.place-order button[type="submit"], .single-product .summary.entry-summary button[type="submit"] {
+    font-size: 14px;
+    background-color: #fcaf3b;
+    border-color: #fcae3b;
+    margin-top: 0rem;
+    border-radius: 0px;
+}
+.shop_table.shop_table_responsive.woocommerce-cart-form__contents .coupon input {
+    margin-left: 10px;
+    border-radius: 0px;
+    padding: 6px;
+}
+.cart-contents {
+    position: relative;
+    display: flex !important;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.cart-contents:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;	
+    content: "\f07a" !important;
+   font-size: 23px;
+}
+
+.cart-contents:hover {
+    text-decoration: none;
+}
+
+.cart-contents-count {
+    color: #fff;
+    background: #fbae3b;
+    margin-top: -17px;
+    margin-left: 12px;
+    font-weight: bold;
+    margin-right: 6px;
+    border-radius: 50%;
+    padding: 1px 6px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
+    height: 17px;
+    width: 17px;
+    transform: translateY(-105%) translateX(25%);
+    font-size: 10px;
+}</style>
+<!-- end Simple Custom CSS and JS -->
